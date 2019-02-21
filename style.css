@@ -1,0 +1,333 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+h1 {
+  position: absolute;
+  left: 43%;
+  top: 1%;
+  font-size: 150%;
+  color: #006998;
+}
+.text {
+  position: absolute;
+  color: dark-grey;
+  left: 40%;
+  top: 4%;
+}
+.emblema img {
+  position: absolute;
+  width: 9%;
+  height: 9%;
+  left: 25%;
+	top: 0%;
+}
+#info {
+  position: absolute;
+	list-style: none;
+	width: 63%;
+  height: 4%;
+  margin: 5.4% auto 10% auto;
+	padding: 0px 30% 0px 7%;
+	background: #2980b9;
+}
+#info li {
+	float: left;
+	display: block;
+	position: relative;
+  left: 30%;
+  top: 25%;
+	margin-right: 2%;
+	border: none;
+}
+#info li:hover {
+	background: #0273a4;
+}
+#info li b {
+  font-size: 15px;
+  position: relative;
+	color: #EEEEEE;
+	display: block;
+	outline: 0;
+	text-decoration: none;
+  text-shadow: 1px 1px 1px #0000;
+}
+#info img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 55%;
+  top: 14%;
+}
+.middle {
+  position: absolute;
+  top: 32%;
+  left: 12.5%;
+  transform: translate(-50%, -50%);
+}
+.menu {
+  width: 400px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 15px 5px rgba(221, 221, 221, 1);
+}
+.item {
+  border-top: 1px solid #2980b9;
+  overflow: hidden;
+}
+.btn {
+  display: block;
+  padding: 16px 20px;
+  background: #3498db;
+  color: white;
+  position: relative;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #3498db;
+  left: 20px;
+  bottom: -7px;
+  transform: rotate(45deg);
+}
+.btn i {
+  margin-right: 10px;
+}
+.smenu {
+  background: #333;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 0;
+}
+.smenu a {
+  display: block;
+  padding: 16px 26px;
+  color: white;
+  font-size: 15px;
+  margin: 4px 0;
+  position: relative;
+}
+.smenu a:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #3498db;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  opacity: 0;
+}
+.smenu a:hover:before {
+  opacity: 1;
+}
+.item:target .smenu {
+  max-height: 25em;
+}
+.container {
+  display: block;
+  position: relative;
+  top: 25px;
+  left: 20px;
+  padding-left: 35px;
+  margin-bottom: 55px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.layer p2 {
+  position: relative;
+  font-size: 150%;
+  left: 45px;
+  top: 15px;
+}
+.layer p3{
+  position: relative;
+  font-size: 150%;
+  left: 405px;
+  top: -385px;
+}
+.layer p4 {
+  position: relative;
+  font-size: 110%;
+  left: 330px;
+  top: -340px;
+  color: #8e44ad;
+}
+.layer p5 {
+  position: relative;
+  font-size: 110%;
+  left: 257px;
+  top: -320px;
+  color: #8e44ad;
+}
+.layer p6 {
+  position: relative;
+  font-size: 110%;
+  left: 142px;
+  top: -300px;
+  color: #8e44ad;
+}
+.layer p7 {
+  position: relative;
+  font-size: 110%;
+  left: 68px;
+  top: -280px;
+  color: #8e44ad;
+}
+.layer p8 {
+  position: relative;
+  font-size: 110%;
+  left: -85px;
+  top: -260px;
+  color: #8e44ad;
+}
+.layer p9 {
+  position: relative;
+  font-size: 110%;
+  left: -225px;
+  top: -240px;
+  color: #8e44ad;
+}
+.layer p10 {
+  position: relative;
+  font-size: 110%;
+  left: -316px;
+  top: -220px;
+  color: #8e44ad;
+}
+.layer p11 {
+  position: relative;
+  font-size: 110%;
+  top: -225px;
+  left: 404px;
+  color: #8e44ad;
+}
+.layer p12 {
+  position: relative;
+  font-size: 110%;
+  top: -206px;
+  left: 235px;
+  color: #8e44ad;
+}
+.photoInf img {
+  width: 410px;
+  height: 470px;
+}
+.btnInfo {
+  display: block;
+  padding: 16px 20px;
+  background: #3498db;
+  color: white;
+  position: relative;
+  margin: 0.9%;
+}
+.test {
+  position: absolute;
+  left: 26%;
+  top: 15.3%;
+}
+.layer {
+  overflow: scroll;
+  width: 900px;
+  height: 890px;
+  padding: 5px;
+  border: solid 0px black;
+  box-shadow: 0 0 15px 5px rgba(221, 221, 221, 1);
+ }
+ .left {
+  position: absolute;
+  left: 102%;
+  top: 0%;
+ }
+ .lLauer {
+  overflow: scroll;
+  width: 420px;
+  height: 890px;
+  padding: 5px;
+  border: solid 0px black;
+  box-shadow: 0 0 15px 5px rgba(221, 221, 221, 1);
+ }
+ .block_i {
+  width: 350px;
+  height: 120px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 5px rgba(221, 221, 221, 1);
+  position: relative;
+  left: -10px;
+  top: -189px;
+}
+.block_i h3 {
+	padding: 8px 10px;
+	color: black;
+  text-shadow: none;
+  font-size: 25px;
+  position: relative;
+  left: 70px;
+  top: -75px;
+}
+.block_i img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+.block_i p {
+	color: black;
+	margin: 0;
+  position: relative;
+  left: 80px;
+  top: -95px;
+  width: 400px;
+  height: 100px;
+}
